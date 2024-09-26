@@ -44,7 +44,7 @@ def postfix(expr)
   
     return output
 end
-  
-expr = "(1-2)+11"
+
+expr = "-3+4+5"
 puts "Input: " + expr
 puts "Output: " + postfix(expr)
